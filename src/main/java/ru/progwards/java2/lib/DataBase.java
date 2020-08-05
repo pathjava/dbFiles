@@ -159,7 +159,7 @@ public enum DataBase {
         System.out.println(INSTANCE.users.getAll());
 
         if (!DataBase.INSTANCE.users.put(new Users.User("login", "hash", "name", false, "c:/!/!.jpg")))
-            System.out.println("Пользователь уже существует...");;
+            System.out.println("Пользователь уже существует...");
         DataBase.INSTANCE.users.put(new Users.User("login2", "hash2", "name2", false, "c:/!/2!.jpg"));
         DataBase.INSTANCE.users.put(new Users.User("mazneff", "hash3", "Мазнев Валерий", true, "c:/!/m!.png"));
 
