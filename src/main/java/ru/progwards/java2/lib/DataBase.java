@@ -34,18 +34,25 @@ public enum DataBase {
             }
 
             @Override
-            public String toString() { return login; }
+            public String toString() {
+                return login;
+            }
         }
 
         private Users() {
-            super(new TypeToken<ArrayList<User>>() {}.getType());
+            super(new TypeToken<ArrayList<User>>() {
+            }.getType());
         }
 
         @Override
-        public String getTableName() { return "users.json"; }
+        public String getTableName() {
+            return "users.json";
+        }
 
         @Override
-        public String getKey(User elem) { return elem.login; }
+        public String getKey(User elem) {
+            return elem.login;
+        }
     }
 
     // таблица консультации
@@ -77,11 +84,14 @@ public enum DataBase {
         }
 
         private Consultations() {
-            super(new TypeToken<ArrayList<Consultation>>() {}.getType());
+            super(new TypeToken<ArrayList<Consultation>>() {
+            }.getType());
         }
 
         @Override
-        public String getTableName() { return "consultations.json"; }
+        public String getTableName() {
+            return "consultations.json";
+        }
 
         @Override
         public Key getKey(Consultation elem) {
@@ -118,11 +128,14 @@ public enum DataBase {
         }
 
         private Schedule() {
-            super(new TypeToken<ArrayList<Value>>() {}.getType());
+            super(new TypeToken<ArrayList<Value>>() {
+            }.getType());
         }
 
         @Override
-        public String getTableName() { return "schedule.json"; }
+        public String getTableName() {
+            return "schedule.json";
+        }
 
         @Override
         public Key getKey(Value elem) {
@@ -143,14 +156,19 @@ public enum DataBase {
         }
 
         private Settings() {
-            super(new TypeToken<ArrayList<Record>>() {}.getType());
+            super(new TypeToken<ArrayList<Record>>() {
+            }.getType());
         }
 
         @Override
-        public String getTableName() { return "settings.json"; }
+        public String getTableName() {
+            return "settings.json";
+        }
 
         @Override
-        public String getKey(Record elem) { return elem.name; }
+        public String getKey(Record elem) {
+            return elem.name;
+        }
     }
 
 
