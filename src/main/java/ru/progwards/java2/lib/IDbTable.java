@@ -45,7 +45,7 @@ public interface IDbTable<K, V> {
     private static String bytesToHex(byte[] hash) {
         if (hash == null)
             return null;
-        StringBuffer hexString = new StringBuffer();
+        StringBuilder hexString = new StringBuilder();
         for (byte b : hash) {
             String hex = Integer.toHexString(0xff & b);
             if (hex.length() == 1) hexString.append('0');
