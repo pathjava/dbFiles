@@ -155,8 +155,8 @@ public enum DataBase {
 
 
     public static void main(String[] args) throws IOException {
-//        INSTANCE.users.readAll();
-//        System.out.println(INSTANCE.users.getAll());
+        INSTANCE.users.readAll();
+        System.out.println(INSTANCE.users.getAll());
 
         if (!DataBase.INSTANCE.users.put(new Users.User("login", "hash", "name", false, "c:/!/!.jpg")))
             System.out.println("Пользователь уже существует...");;
