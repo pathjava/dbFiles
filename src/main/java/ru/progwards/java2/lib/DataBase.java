@@ -5,11 +5,12 @@ import com.google.gson.reflect.TypeToken;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Objects;
 
 public enum DataBase {
     INSTANCE;
 
-    public final static String DB_PATH = "C:\\Intellij Idea\\programming\\dbFiles\\src\\main\\resources\\users.json";
+    public final static String DB_PATH = "C:\\Intellij Idea\\programming\\dbFiles\\src\\main\\resources";
 
     public Users users = new Users();
     public Consultations consultations = new Consultations();
@@ -21,16 +22,66 @@ public enum DataBase {
         public static class User {
             public final String login;
             public final String password;
+            public final boolean needChangePassword;
             public final String name;
             public final boolean is_mentor;
+            public final String email;
+            public final String progwardsAccountLink;
+            public final String discordName;
             public final String image;
 
-            public User(String login, String password, String name, boolean is_mentor, String image) {
+            public User(String login, String password, boolean needChangePassword, String name, boolean is_mentor,
+                        String email, String progwardsAccountLink, String discordName, String image) {
                 this.login = login;
                 this.password = password;
+                this.needChangePassword = needChangePassword;
                 this.name = name;
                 this.is_mentor = is_mentor;
+                this.email = email;
+                this.progwardsAccountLink = progwardsAccountLink;
+                this.discordName = discordName;
                 this.image = image;
+            }
+
+            // конструктор оставлен для совместимости
+//            public User(String login, String password, String name, boolean is_mentor, String image) {
+//                this(login, password, true, name, is_mentor, "", "", "", image);
+//            }
+
+            public String getLogin() {
+                return login;
+            }
+
+            public String getPassword() {
+                return password;
+            }
+
+            public boolean isNeedChangePassword() {
+                return needChangePassword;
+            }
+
+            public String getName() {
+                return name;
+            }
+
+            public boolean isIs_mentor() {
+                return is_mentor;
+            }
+
+            public String getEmail() {
+                return email;
+            }
+
+            public String getProgwardsAccountLink() {
+                return progwardsAccountLink;
+            }
+
+            public String getDiscordName() {
+                return discordName;
+            }
+
+            public String getImage() {
+                return image;
             }
 
             @Override
@@ -71,6 +122,26 @@ public enum DataBase {
                 this.student = student;
                 this.comment = comment;
             }
+
+            public String getMentor() {
+                return mentor;
+            }
+
+            public long getStart() {
+                return start;
+            }
+
+            public long getDuration() {
+                return duration;
+            }
+
+            public String getStudent() {
+                return student;
+            }
+
+            public String getComment() {
+                return comment;
+            }
         }
 
         public static class Key {
@@ -80,6 +151,20 @@ public enum DataBase {
             public Key(String mentor, long start) {
                 this.mentor = mentor;
                 this.start = start;
+            }
+
+            @Override
+            public boolean equals(Object o) {
+                if (this == o) return true;
+                if (o == null || getClass() != o.getClass()) return false;
+                Key key = (Key) o;
+                return start == key.start &&
+                        mentor.equals(key.mentor);
+            }
+
+            @Override
+            public int hashCode() {
+                return Objects.hash(mentor, start);
             }
         }
 
@@ -113,6 +198,22 @@ public enum DataBase {
                 this.start = start;
                 this.duration = duration;
             }
+
+            public String getMentor() {
+                return mentor;
+            }
+
+            public int getDay_of_week() {
+                return day_of_week;
+            }
+
+            public long getStart() {
+                return start;
+            }
+
+            public long getDuration() {
+                return duration;
+            }
         }
 
         public static class Key {
@@ -124,6 +225,21 @@ public enum DataBase {
                 this.mentor = mentor;
                 this.day_of_week = day_of_week;
                 this.start = start;
+            }
+
+            @Override
+            public boolean equals(Object o) {
+                if (this == o) return true;
+                if (o == null || getClass() != o.getClass()) return false;
+                Key key = (Key) o;
+                return day_of_week == key.day_of_week &&
+                        start == key.start &&
+                        mentor.equals(key.mentor);
+            }
+
+            @Override
+            public int hashCode() {
+                return Objects.hash(mentor, day_of_week, start);
             }
         }
 
@@ -153,6 +269,14 @@ public enum DataBase {
                 this.name = name;
                 this.value = value;
             }
+
+            public String getName() {
+                return name;
+            }
+
+            public String getValue() {
+                return value;
+            }
         }
 
         private Settings() {
@@ -176,10 +300,13 @@ public enum DataBase {
         INSTANCE.users.readAll();
         System.out.println(INSTANCE.users.getAll());
 
-        if (!DataBase.INSTANCE.users.put(new Users.User("login", "hash", "name", false, "c:/!/!.jpg")))
+        if (!DataBase.INSTANCE.users.put(new Users.User("ivannn", "hash", true,
+                "Ivan", false, "mail@site.ru", "site.ru", "#15973", "ava.jpg")))
             System.out.println("Пользователь уже существует...");
-        DataBase.INSTANCE.users.put(new Users.User("login2", "hash2", "name2", false, "c:/!/2!.jpg"));
-        DataBase.INSTANCE.users.put(new Users.User("mazneff", "hash3", "Мазнев Валерий", true, "c:/!/m!.png"));
+        DataBase.INSTANCE.users.put(new Users.User("alexxx", "hash2", true,
+                "Alex", false, "mail@site.ru", "site.ru", "#15973", "ava.jpg"));
+        DataBase.INSTANCE.users.put(new Users.User("mazneff", "hash3", true,
+                "Мазнев Валерий", true, "mail@site.ru", "site.ru", "#15973", "ava.jpg"));
 
         List<Users.User> list2 = INSTANCE.users.select(e -> e.is_mentor);
         System.out.println(list2);
