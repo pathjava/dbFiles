@@ -10,7 +10,7 @@ import java.util.Objects;
 public enum DataBase {
     INSTANCE;
 
-    public final static String DB_PATH = "C:\\Intellij Idea\\programming\\dbFiles\\src\\main\\resources";
+    public final static String DB_PATH = "C:\\Intellij Idea\\programming\\dbFiles\\src\\main\\resources\\";
 
     public Users users = new Users();
     public Consultations consultations = new Consultations();
