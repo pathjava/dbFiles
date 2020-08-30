@@ -13,13 +13,24 @@
   {
     "login": "ann",
     "password": "ef797c8118f02dfb649607dd5d3f8c7623048c9c063d532cc95c5ed7a898a64f",
-    "needChangePassword": true,
+    "needChangePassword": false,
     "name": "Анна",
     "is_mentor": false,
-    "email": "",
-    "progwardsAccountLink": "",
-    "discordName": "",
+    "email": "t@tt.ru",
+    "progwardsAccountLink": "http://lms.progwards.ru/moodle/user/profile.php?id\u003d208",
+    "discordName": "ann#1582",
     "image": ""
+  },
+  {
+    "login": "vasiliy",
+    "password": "ef797c8118f02dfb649607dd5d3f8c7623048c9c063d532cc95c5ed7a898a64f",
+    "needChangePassword": false,
+    "name": "Василий",
+    "is_mentor": false,
+    "email": "vasya@yandex.ru",
+    "progwardsAccountLink": "http://lms.progwards.ru/moodle/user/profile.php?id\u003d208",
+    "discordName": "vasya#1580",
+    "image": "20200828152830_fb_img_1535613187166.jpg"
   },
   {
     "login": "tom",
@@ -55,17 +66,6 @@
     "image": ""
   },
   {
-    "login": "valeriy",
-    "password": "ef797c8118f02dfb649607dd5d3f8c7623048c9c063d532cc95c5ed7a898a64f",
-    "needChangePassword": true,
-    "name": "Валерий",
-    "is_mentor": false,
-    "email": "",
-    "progwardsAccountLink": "",
-    "discordName": "",
-    "image": "20200822120054_valeriy.jpg"
-  },
-  {
     "login": "nikita",
     "password": "ef797c8118f02dfb649607dd5d3f8c7623048c9c063d532cc95c5ed7a898a64f",
     "needChangePassword": true,
@@ -75,6 +75,17 @@
     "progwardsAccountLink": "",
     "discordName": "",
     "image": "20200822115935_nikita.jpg"
+  },
+  {
+    "login": "valeriy",
+    "password": "ef797c8118f02dfb649607dd5d3f8c7623048c9c063d532cc95c5ed7a898a64f",
+    "needChangePassword": true,
+    "name": "Валерий",
+    "is_mentor": false,
+    "email": "",
+    "progwardsAccountLink": "",
+    "discordName": "",
+    "image": "20200822120054_valeriy.jpg"
   },
   {
     "login": "alexxx",
@@ -90,23 +101,12 @@
   {
     "login": "olegOne",
     "password": "ef797c8118f02dfb649607dd5d3f8c7623048c9c063d532cc95c5ed7a898a64f",
-    "needChangePassword": true,
+    "needChangePassword": false,
     "name": "Олег",
     "is_mentor": true,
-    "email": "",
-    "progwardsAccountLink": "",
-    "discordName": "",
+    "email": "test@test.ru",
+    "progwardsAccountLink": "http://lms.progwards.ru/moodle/user/profile.php?id\u003d207",
+    "discordName": "oleg79#1580",
     "image": "20200821185043_07.jpg"
-  },
-  {
-    "login": "anna",
-    "password": "ef797c8118f02dfb649607dd5d3f8c7623048c9c063d532cc95c5ed7a898a64f",
-    "needChangePassword": true,
-    "name": "Anna",
-    "is_mentor": false,
-    "email": "",
-    "progwardsAccountLink": "",
-    "discordName": "",
-    "image": ""
   }
 ]

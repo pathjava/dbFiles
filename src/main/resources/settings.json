@@ -1,5 +1,13 @@
 [
   {
+    "name": "AVATARS_DIRECTORY",
+    "value": "avatars"
+  },
+  {
+    "name": "SLOT_TIME",
+    "value": "00:15"
+  },
+  {
     "name": "MIN_LENGTH_PASS",
     "value": "8"
   },
