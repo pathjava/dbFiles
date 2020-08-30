@@ -1,15 +1,21 @@
 [
   {
     "mentor": "nikita",
-    "day_of_week": 2,
+    "day_of_week": 5,
+    "start": 64800000,
+    "duration": 3600000
+  },
+  {
+    "mentor": "nikita",
+    "day_of_week": 1,
     "start": 66000000,
     "duration": 5400000
   },
   {
-    "mentor": "nikita",
-    "day_of_week": 5,
-    "start": 64800000,
-    "duration": 3600000
+    "mentor": "olegOne",
+    "day_of_week": 1,
+    "start": 39600000,
+    "duration": 5400000
   },
   {
     "mentor": "nikita",
@@ -19,8 +25,8 @@
   },
   {
     "mentor": "olegOne",
-    "day_of_week": 6,
-    "start": 39600000,
-    "duration": 5400000
+    "day_of_week": 7,
+    "start": 73800000,
+    "duration": 3600000
   }
 ]
