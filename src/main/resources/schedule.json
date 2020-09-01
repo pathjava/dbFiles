@@ -1,9 +1,57 @@
 [
   {
-    "mentor": "nikita",
+    "mentor": "olegOne",
+    "day_of_week": 2,
+    "start": 66300000,
+    "duration": 4200000
+  },
+  {
+    "mentor": "olegOne",
+    "day_of_week": 1,
+    "start": 43200000,
+    "duration": 5400000
+  },
+  {
+    "mentor": "olegOne",
     "day_of_week": 5,
-    "start": 64800000,
-    "duration": 3600000
+    "start": 41400000,
+    "duration": 5400000
+  },
+  {
+    "mentor": "nikita",
+    "day_of_week": 3,
+    "start": 34200000,
+    "duration": 6600000
+  },
+  {
+    "mentor": "nikita",
+    "day_of_week": 7,
+    "start": 45000000,
+    "duration": 3000000
+  },
+  {
+    "mentor": "olegOne",
+    "day_of_week": 7,
+    "start": 63000000,
+    "duration": 2880000
+  },
+  {
+    "mentor": "nikita",
+    "day_of_week": 2,
+    "start": 45000000,
+    "duration": 4800000
+  },
+  {
+    "mentor": "olegOne",
+    "day_of_week": 4,
+    "start": 50400000,
+    "duration": 7200000
+  },
+  {
+    "mentor": "nikita",
+    "day_of_week": 4,
+    "start": 55800000,
+    "duration": 4800000
   },
   {
     "mentor": "nikita",
@@ -13,20 +61,14 @@
   },
   {
     "mentor": "olegOne",
-    "day_of_week": 1,
-    "start": 39600000,
-    "duration": 5400000
+    "day_of_week": 3,
+    "start": 66000000,
+    "duration": 3600000
   },
   {
     "mentor": "nikita",
-    "day_of_week": 7,
-    "start": 55800000,
-    "duration": 5400000
-  },
-  {
-    "mentor": "olegOne",
-    "day_of_week": 7,
-    "start": 73800000,
-    "duration": 3600000
+    "day_of_week": 5,
+    "start": 51900000,
+    "duration": 5220000
   }
 ]
