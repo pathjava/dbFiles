@@ -1,12 +1,6 @@
 [
   {
     "mentor": "olegOne",
-    "day_of_week": 2,
-    "start": 66300000,
-    "duration": 4200000
-  },
-  {
-    "mentor": "olegOne",
     "day_of_week": 1,
     "start": 43200000,
     "duration": 5400000
@@ -38,7 +32,7 @@
   {
     "mentor": "nikita",
     "day_of_week": 2,
-    "start": 45000000,
+    "start": 70200000,
     "duration": 4800000
   },
   {
@@ -70,5 +64,11 @@
     "day_of_week": 5,
     "start": 51900000,
     "duration": 5220000
+  },
+  {
+    "mentor": "olegOne",
+    "day_of_week": 2,
+    "start": 69900000,
+    "duration": 4200000
   }
 ]
