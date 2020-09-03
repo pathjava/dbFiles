@@ -12,6 +12,10 @@
     "value": "8"
   },
   {
+    "name": "MAX_LENGTH_COMMENT",
+    "value": "200"
+  },
+  {
     "name": "MAX_LENGTH_PASS",
     "value": "20"
   },
