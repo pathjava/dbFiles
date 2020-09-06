@@ -18,16 +18,16 @@
     "duration": 6600000
   },
   {
-    "mentor": "nikita",
-    "day_of_week": 7,
-    "start": 45000000,
-    "duration": 3000000
-  },
-  {
     "mentor": "olegOne",
     "day_of_week": 7,
     "start": 63000000,
     "duration": 2880000
+  },
+  {
+    "mentor": "nikita",
+    "day_of_week": 7,
+    "start": 45000000,
+    "duration": 3000000
   },
   {
     "mentor": "nikita",
