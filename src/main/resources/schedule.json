@@ -25,12 +25,6 @@
   },
   {
     "mentor": "nikita",
-    "day_of_week": 7,
-    "start": 45000000,
-    "duration": 3000000
-  },
-  {
-    "mentor": "nikita",
     "day_of_week": 2,
     "start": 70200000,
     "duration": 4800000
@@ -48,10 +42,10 @@
     "duration": 4800000
   },
   {
-    "mentor": "nikita",
-    "day_of_week": 1,
-    "start": 66000000,
-    "duration": 5400000
+    "mentor": "olegOne",
+    "day_of_week": 2,
+    "start": 70200000,
+    "duration": 4200000
   },
   {
     "mentor": "olegOne",
@@ -66,9 +60,9 @@
     "duration": 5220000
   },
   {
-    "mentor": "olegOne",
-    "day_of_week": 2,
-    "start": 69900000,
-    "duration": 4200000
+    "mentor": "nikita",
+    "day_of_week": 1,
+    "start": 66300000,
+    "duration": 5700000
   }
 ]
