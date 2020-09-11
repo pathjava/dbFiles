@@ -1,37 +1,9 @@
 [
   {
     "mentor": "nikita",
-    "start": 1599827100000,
-    "duration": 900000,
-    "student": "",
-    "comment": ""
-  },
-  {
-    "mentor": "nikita",
     "start": 1599741000000,
     "duration": 900000,
     "student": "elena",
-    "comment": ""
-  },
-  {
-    "mentor": "olegOne",
-    "start": 1599741000000,
-    "duration": 900000,
-    "student": "elena",
-    "comment": ""
-  },
-  {
-    "mentor": "olegOne",
-    "start": 1599816600000,
-    "duration": 900000,
-    "student": "",
-    "comment": ""
-  },
-  {
-    "mentor": "nikita",
-    "start": 1599633900000,
-    "duration": 900000,
-    "student": "tom",
     "comment": ""
   },
   {
@@ -43,7 +15,7 @@
   },
   {
     "mentor": "nikita",
-    "start": 1599583500000,
+    "start": 1600011300000,
     "duration": 900000,
     "student": "",
     "comment": ""
@@ -52,7 +24,7 @@
     "mentor": "olegOne",
     "start": 1600009200000,
     "duration": 900000,
-    "student": "ann",
+    "student": "",
     "comment": ""
   },
   {
@@ -64,21 +36,7 @@
   },
   {
     "mentor": "nikita",
-    "start": 1599824400000,
-    "duration": 900000,
-    "student": "ann",
-    "comment": ""
-  },
-  {
-    "mentor": "nikita",
-    "start": 1599744600000,
-    "duration": 900000,
-    "student": "",
-    "comment": ""
-  },
-  {
-    "mentor": "olegOne",
-    "start": 1599813900000,
+    "start": 1599902100000,
     "duration": 900000,
     "student": "",
     "comment": ""
@@ -91,10 +49,10 @@
     "comment": ""
   },
   {
-    "mentor": "olegOne",
-    "start": 1599738300000,
+    "mentor": "nikita",
+    "start": 1600008600000,
     "duration": 900000,
-    "student": "alexxx",
+    "student": "tom",
     "comment": ""
   },
   {
@@ -127,21 +85,14 @@
   },
   {
     "mentor": "olegOne",
-    "start": 1599666600000,
+    "start": 1600014600000,
     "duration": 900000,
-    "student": "alexxx",
+    "student": "",
     "comment": ""
   },
   {
     "mentor": "olegOne",
-    "start": 1600008300000,
-    "duration": 900000,
-    "student": "elena",
-    "comment": ""
-  },
-  {
-    "mentor": "olegOne",
-    "start": 1599582600000,
+    "start": 1599913800000,
     "duration": 900000,
     "student": "",
     "comment": ""
@@ -168,13 +119,6 @@
     "comment": ""
   },
   {
-    "mentor": "nikita",
-    "start": 1599636600000,
-    "duration": 900000,
-    "student": "",
-    "comment": ""
-  },
-  {
     "mentor": "olegOne",
     "start": 1599737400000,
     "duration": 900000,
@@ -182,10 +126,17 @@
     "comment": ""
   },
   {
-    "mentor": "nikita",
-    "start": 1599586200000,
+    "mentor": "olegOne",
+    "start": 1600011900000,
     "duration": 900000,
-    "student": "alexxx",
+    "student": "ann",
+    "comment": ""
+  },
+  {
+    "mentor": "nikita",
+    "start": 1600009500000,
+    "duration": 900000,
+    "student": "",
     "comment": ""
   },
   {
@@ -196,8 +147,8 @@
     "comment": ""
   },
   {
-    "mentor": "olegOne",
-    "start": 1600007400000,
+    "mentor": "nikita",
+    "start": 1599900300000,
     "duration": 900000,
     "student": "",
     "comment": ""
@@ -217,13 +168,6 @@
     "comment": ""
   },
   {
-    "mentor": "olegOne",
-    "start": 1599736500000,
-    "duration": 900000,
-    "student": "tom",
-    "comment": ""
-  },
-  {
     "mentor": "nikita",
     "start": 1599585300000,
     "duration": 900000,
@@ -232,14 +176,14 @@
   },
   {
     "mentor": "olegOne",
-    "start": 1599585300000,
+    "start": 1600011000000,
     "duration": 900000,
-    "student": "tom",
+    "student": "",
     "comment": ""
   },
   {
-    "mentor": "nikita",
-    "start": 1599826200000,
+    "mentor": "olegOne",
+    "start": 1599916500000,
     "duration": 900000,
     "student": "",
     "comment": ""
@@ -252,15 +196,8 @@
     "comment": ""
   },
   {
-    "mentor": "olegOne",
-    "start": 1599735600000,
-    "duration": 900000,
-    "student": "",
-    "comment": ""
-  },
-  {
-    "mentor": "olegOne",
-    "start": 1599741900000,
+    "mentor": "nikita",
+    "start": 1599899400000,
     "duration": 900000,
     "student": "",
     "comment": ""
@@ -270,13 +207,6 @@
     "start": 1599741900000,
     "duration": 900000,
     "student": "alexxx",
-    "comment": ""
-  },
-  {
-    "mentor": "olegOne",
-    "start": 1599817500000,
-    "duration": 900000,
-    "student": "",
     "comment": ""
   },
   {
@@ -295,16 +225,16 @@
   },
   {
     "mentor": "olegOne",
-    "start": 1599584400000,
+    "start": 1600010100000,
     "duration": 900000,
-    "student": "",
+    "student": "tom",
     "comment": ""
   },
   {
-    "mentor": "nikita",
-    "start": 1599825300000,
+    "mentor": "olegOne",
+    "start": 1599915600000,
     "duration": 900000,
-    "student": "elena",
+    "student": "",
     "comment": ""
   },
   {
@@ -319,6 +249,272 @@
     "start": 1599739200000,
     "duration": 900000,
     "student": "",
+    "comment": ""
+  },
+  {
+    "mentor": "nikita",
+    "start": 1599827100000,
+    "duration": 900000,
+    "student": "tom",
+    "comment": ""
+  },
+  {
+    "mentor": "olegOne",
+    "start": 1599741000000,
+    "duration": 900000,
+    "student": "elena",
+    "comment": ""
+  },
+  {
+    "mentor": "olegOne",
+    "start": 1599816600000,
+    "duration": 900000,
+    "student": "",
+    "comment": ""
+  },
+  {
+    "mentor": "nikita",
+    "start": 1599633900000,
+    "duration": 900000,
+    "student": "tom",
+    "comment": ""
+  },
+  {
+    "mentor": "nikita",
+    "start": 1599583500000,
+    "duration": 900000,
+    "student": "",
+    "comment": ""
+  },
+  {
+    "mentor": "olegOne",
+    "start": 1599914700000,
+    "duration": 900000,
+    "student": "tom",
+    "comment": ""
+  },
+  {
+    "mentor": "nikita",
+    "start": 1599824400000,
+    "duration": 900000,
+    "student": "ann",
+    "comment": ""
+  },
+  {
+    "mentor": "nikita",
+    "start": 1599744600000,
+    "duration": 900000,
+    "student": "",
+    "comment": ""
+  },
+  {
+    "mentor": "olegOne",
+    "start": 1599813900000,
+    "duration": 900000,
+    "student": "",
+    "comment": ""
+  },
+  {
+    "mentor": "olegOne",
+    "start": 1599738300000,
+    "duration": 900000,
+    "student": "alexxx",
+    "comment": ""
+  },
+  {
+    "mentor": "olegOne",
+    "start": 1599666600000,
+    "duration": 900000,
+    "student": "alexxx",
+    "comment": ""
+  },
+  {
+    "mentor": "nikita",
+    "start": 1600010400000,
+    "duration": 900000,
+    "student": "",
+    "comment": ""
+  },
+  {
+    "mentor": "olegOne",
+    "start": 1600008300000,
+    "duration": 900000,
+    "student": "",
+    "comment": ""
+  },
+  {
+    "mentor": "olegOne",
+    "start": 1599582600000,
+    "duration": 900000,
+    "student": "",
+    "comment": ""
+  },
+  {
+    "mentor": "nikita",
+    "start": 1599901200000,
+    "duration": 900000,
+    "student": "ann",
+    "comment": ""
+  },
+  {
+    "mentor": "nikita",
+    "start": 1599636600000,
+    "duration": 900000,
+    "student": "",
+    "comment": ""
+  },
+  {
+    "mentor": "nikita",
+    "start": 1599586200000,
+    "duration": 900000,
+    "student": "alexxx",
+    "comment": ""
+  },
+  {
+    "mentor": "nikita",
+    "start": 1600007700000,
+    "duration": 900000,
+    "student": "",
+    "comment": ""
+  },
+  {
+    "mentor": "olegOne",
+    "start": 1599917400000,
+    "duration": 900000,
+    "student": "",
+    "comment": ""
+  },
+  {
+    "mentor": "nikita",
+    "start": 1599898500000,
+    "duration": 900000,
+    "student": "tom",
+    "comment": ""
+  },
+  {
+    "mentor": "olegOne",
+    "start": 1600007400000,
+    "duration": 900000,
+    "student": "",
+    "comment": ""
+  },
+  {
+    "mentor": "olegOne",
+    "start": 1600013700000,
+    "duration": 900000,
+    "student": "tom",
+    "comment": ""
+  },
+  {
+    "mentor": "olegOne",
+    "start": 1599912900000,
+    "duration": 900000,
+    "student": "",
+    "comment": ""
+  },
+  {
+    "mentor": "olegOne",
+    "start": 1599736500000,
+    "duration": 900000,
+    "student": "tom",
+    "comment": ""
+  },
+  {
+    "mentor": "nikita",
+    "start": 1600013100000,
+    "duration": 900000,
+    "student": "",
+    "comment": ""
+  },
+  {
+    "mentor": "olegOne",
+    "start": 1599585300000,
+    "duration": 900000,
+    "student": "tom",
+    "comment": ""
+  },
+  {
+    "mentor": "nikita",
+    "start": 1599897600000,
+    "duration": 900000,
+    "student": "",
+    "comment": ""
+  },
+  {
+    "mentor": "nikita",
+    "start": 1599903900000,
+    "duration": 900000,
+    "student": "",
+    "comment": ""
+  },
+  {
+    "mentor": "nikita",
+    "start": 1599826200000,
+    "duration": 900000,
+    "student": "",
+    "comment": ""
+  },
+  {
+    "mentor": "olegOne",
+    "start": 1600012800000,
+    "duration": 900000,
+    "student": "",
+    "comment": ""
+  },
+  {
+    "mentor": "olegOne",
+    "start": 1599918300000,
+    "duration": 900000,
+    "student": "",
+    "comment": ""
+  },
+  {
+    "mentor": "olegOne",
+    "start": 1599741900000,
+    "duration": 900000,
+    "student": "",
+    "comment": ""
+  },
+  {
+    "mentor": "olegOne",
+    "start": 1599735600000,
+    "duration": 900000,
+    "student": "",
+    "comment": ""
+  },
+  {
+    "mentor": "olegOne",
+    "start": 1599817500000,
+    "duration": 900000,
+    "student": "",
+    "comment": ""
+  },
+  {
+    "mentor": "nikita",
+    "start": 1600012200000,
+    "duration": 900000,
+    "student": "",
+    "comment": ""
+  },
+  {
+    "mentor": "olegOne",
+    "start": 1599584400000,
+    "duration": 900000,
+    "student": "",
+    "comment": ""
+  },
+  {
+    "mentor": "nikita",
+    "start": 1599903000000,
+    "duration": 900000,
+    "student": "",
+    "comment": ""
+  },
+  {
+    "mentor": "nikita",
+    "start": 1599825300000,
+    "duration": 900000,
+    "student": "elena",
     "comment": ""
   },
   {

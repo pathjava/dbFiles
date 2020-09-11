@@ -11,17 +11,6 @@
     "image": "20200821185100_04.gif"
   },
   {
-    "login": "ann",
-    "password": "ef797c8118f02dfb649607dd5d3f8c7623048c9c063d532cc95c5ed7a898a64f",
-    "needChangePassword": false,
-    "name": "Анна",
-    "is_mentor": false,
-    "email": "t@tt.ru",
-    "progwardsAccountLink": "http://lms.progwards.ru/moodle/user/profile.php?id\u003d208",
-    "discordName": "ann#1582",
-    "image": ""
-  },
-  {
     "login": "vasiliy",
     "password": "ef797c8118f02dfb649607dd5d3f8c7623048c9c063d532cc95c5ed7a898a64f",
     "needChangePassword": false,
@@ -31,6 +20,17 @@
     "progwardsAccountLink": "http://lms.progwards.ru/moodle/user/profile.php?id\u003d208",
     "discordName": "vasya#1580",
     "image": "20200828152830_fb_img_1535613187166.jpg"
+  },
+  {
+    "login": "ann",
+    "password": "ef797c8118f02dfb649607dd5d3f8c7623048c9c063d532cc95c5ed7a898a64f",
+    "needChangePassword": false,
+    "name": "Анна",
+    "is_mentor": false,
+    "email": "t@tt.ru",
+    "progwardsAccountLink": "http://lms.progwards.ru/moodle/user/profile.php?id\u003d208",
+    "discordName": "ann#1582",
+    "image": "20200911144727_smoking.jpg"
   },
   {
     "login": "tom",
@@ -88,17 +88,6 @@
     "image": "20200822120054_valeriy.jpg"
   },
   {
-    "login": "alexxx",
-    "password": "ef797c8118f02dfb649607dd5d3f8c7623048c9c063d532cc95c5ed7a898a64f",
-    "needChangePassword": true,
-    "name": "Alex1",
-    "is_mentor": false,
-    "email": "",
-    "progwardsAccountLink": "",
-    "discordName": "",
-    "image": "20200821184957_03.jpg"
-  },
-  {
     "login": "olegOne",
     "password": "ef797c8118f02dfb649607dd5d3f8c7623048c9c063d532cc95c5ed7a898a64f",
     "needChangePassword": false,
@@ -108,5 +97,16 @@
     "progwardsAccountLink": "http://lms.progwards.ru/moodle/user/profile.php?id\u003d207",
     "discordName": "oleg79#1580",
     "image": "20200821185043_07.jpg"
+  },
+  {
+    "login": "alexxx",
+    "password": "ef797c8118f02dfb649607dd5d3f8c7623048c9c063d532cc95c5ed7a898a64f",
+    "needChangePassword": false,
+    "name": "Alexxxx",
+    "is_mentor": false,
+    "email": "test@test.ru",
+    "progwardsAccountLink": "http://lms.progwards.ru/moodle/user/profile.php?id\u003d211",
+    "discordName": "alex#1581",
+    "image": "20200911145530_smoking.jpg"
   }
 ]
