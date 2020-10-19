@@ -69,7 +69,7 @@ public abstract class AbstractDbTable<K, V> implements IDbTable<K, V> {
     public void readAll() throws IOException {
         synchronized (this) {
             valueMap.clear();
-            String json =    Files.readString(Path.of(DataBase.DB_PATH + getTableName()));
+            String json = Files.readString(Path.of(DataBase.DB_PATH + getTableName()));
             ArrayList<V> list = new Gson().fromJson(json, type);
 
             list.forEach(e -> valueMap.put(getKey(e), e));
